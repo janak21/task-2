@@ -7,13 +7,13 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls() 
   
 # Authentication 
-s.login("sawalejanak5@gmail.com", "luvTol@F*#@213^8&8") 
+s.login("youremail@gmai.com", "Password of your email") 
   
 # message to be sent 
-message = "Your code is running fine!"
+message = "Model is created!"
   
 # sending the mail 
-s.sendmail("sawalejanak5@gmail.com", "jnksawale@gmail.com", message) 
+s.sendmail("youremail@gmail.com", "receiver@gmail.com", message) 
   
 # terminating the session 
 s.quit()
